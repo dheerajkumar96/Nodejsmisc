@@ -1,0 +1,25 @@
+{
+  "name": "mailbackend",
+  "version": "1.0.0",
+  "description": "mail backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "mail",
+    "backend",
+    "api",
+    "nodejs"
+  ],
+  "author": "dheeraj kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "aws-sdk": "^2.921.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
